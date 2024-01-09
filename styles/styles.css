@@ -136,17 +136,18 @@
 
 }
 
-#btn2 {
-    /* width: 150px;
-    height: 50px; */
-    color: #FFF;
-    font-family: Inter;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 126px;
+.btn{
+    padding-left: 130px;
+}
 
+#btn2 {
+    border-radius: 10px;
+    border: none;
+    background: #e55473;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    padding: 15px 28px;
 }
 
 .section-two-img {
@@ -184,22 +185,21 @@
     text-transform: capitalize;
     text-align: center;
     padding-top: 100px;
-
 }
 
-.section-three-btn {
-
+.btn3{
     text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    border-radius: 8px;
-    padding-bottom: 164px;
 }
-
+.section-three-btn {
+    border-radius: 10px;
+    border: none;
+    /* background: #e55473; */
+    background: #F00;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    padding: 15px 28px;
+}
 .a {
     color: #F00
 }
@@ -221,9 +221,11 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 10px;
 }
 
-.section-four-h5 {
+.section-four-h4{
+    margin-top: 0;
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -252,6 +254,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 0;
 }
 
 .section-4-img {
@@ -393,7 +396,8 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;S
+    line-height: normal;
+    S
     /* 160% */
 }
 
