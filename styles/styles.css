@@ -7,7 +7,7 @@
 * {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     /* margin-left: 140px;
     margin-right: 140px; */
     max-width: 1600px;
@@ -36,38 +36,24 @@
     font-weight: 400;
     line-height: normal;
     padding-top: 177px;
-
 }
 
 .banner-heading {
-    color: #FFF;
+    color: deeppink;
     text-align: center;
     font-family: Merriweather;
-    /* font-size: 72px; */
-    font-size: 64px;
+    font-size: 72px;
+    /* font-size: 64px; */
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center; */
+    margin-top: 0px;
 }
 
 .section-one {
-    /* margin-left: 140px;
-    margin-right: 140px; */
-    /* padding-left: 160px;
-    padding-right: 160px;
-    width: 800px; */
-    /* margin-top: 120px; */
-    /* max-width:1280px;
- */
+    margin-top: 120px;
     text-align: center;
-    width: 1600px;
-
 }
-
 
 .heading-section {
     color: #F00;
@@ -77,14 +63,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    /* margin-top: 100px; */
-    /* margin-left: 140px;
-    margin-right: 140px; */
+    margin-top: 0;
+    margin-bottom: 60px;
 }
 
 #f {
     font-family: Open sans;
-}
 }
 
 .para-section {
@@ -95,9 +79,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    /* margin-top: 105px; */
-    /* width: 397px; */
-    color: #FF0000
 }
 
 .h3-section {
@@ -109,6 +90,7 @@
     font-weight: 700;
     line-height: normal;
     /* width: 410px; */
+    margin-top: 0;
 }
 
 .img-section {}
@@ -137,6 +119,9 @@
     letter-spacing: 7.04px;
     padding-left: 126px;
     padding-top: 126px;
+    margin-bottom: 0;
+    margin-top: 0;
+
 }
 
 .section-two-para {
@@ -151,16 +136,16 @@
 
 }
 
-.section-two-btn {
+#btn2 {
+    /* width: 150px;
+    height: 50px; */
     color: #FFF;
-    text-align: left;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-transform: uppercase;
-    padding-left: 158px;
+    padding-left: 126px;
 
 }
 
@@ -174,6 +159,8 @@
     align-items: center;
     flex-shrink: 0;
     vertical-align: middle;
+    padding-top: 72px;
+    padding-right: 130px;
 }
 
 .section-three {
@@ -260,7 +247,7 @@
 
 .section-four-2024 {
     color: #F00;
-    font-family: inter;
+    font-family: Open sans;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -398,6 +385,7 @@
 }
 
 .s7p {
+    padding-bottom: 10px;
     text-align: center;
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
@@ -405,9 +393,10 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
+    line-height: normal;S
     /* 160% */
 }
+
 .s7btn {
     text-align: center;
     color: #FFF;
@@ -417,7 +406,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-transform: capitalize; 
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
     /* width: 648px;
     height: 72px; */
     /* flex-shrink: 0;
@@ -430,15 +420,16 @@
     padding-left: 336px;
     /* width: 648px; */
     height: 72px;
-    border-radius: 50px;
+    border-radius: 50px 0px 0px 50px;
     background: #FFF;
     color: rgba(7, 2, 17, 0.30);
-    text-align: center;
+    text-align: left;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    border: 0;
 }
 
 #btn {
@@ -454,6 +445,7 @@
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+    border: 0;
 }
 
 /* footer style  */
