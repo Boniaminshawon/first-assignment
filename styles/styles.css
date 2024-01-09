@@ -7,6 +7,7 @@
     font-family: 'Merriweather', serif;
     /* margin-left: 140px;
     margin-right: 140px; */
+    max-width: 1600px;
 }
 
 .banner-content {
@@ -39,10 +40,11 @@
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
+    /* font-size: 72px; */
+    font-size: 64px;
     font-style: normal;
     font-weight: 900;
-    line-height: 95px;
+    line-height: normal;
     /* display: flex;
     justify-content: center;
     flex-direction: column;
@@ -202,7 +204,7 @@
 }
 
 .section-four {
-    width: 1320px;
+    width: 1329px;
     margin-left: 140px;
     margin-right: 140px;
     margin-top: 120px;
@@ -258,7 +260,7 @@
 }
 
 .section5 {
-    max-width: 1280px;
+    /* max-width: 1280px; */
     margin-left: 140px;
     margin-right: 140px;
     margin-top: 120px;
@@ -307,7 +309,7 @@
 }
 
 .s6 {
-    max-width: 1280px;
+    /* max-width: 1280px; */
     margin-left: 140px;
     margin-right: 140px;
     margin-top: 120px;
@@ -341,11 +343,13 @@
     line-height: 32px;
     /* 160% */
 }
-.img-row1{
+
+.img-row1 {
     display: flex;
 
 }
-.img-row2{
+
+.img-row2 {
     display: flex;
 
 }
@@ -400,15 +404,27 @@
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+    /* width: 648px;
+    height: 72px; */
+    /* flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    padding-left: 336px; */
 }
 
+#Subscribe {
+    /* padding-left: 336px; */
+    /* width: 648px;
+    height: 72px; */
+}
+
+ /* footer style  */
 .footer {
     width: 1560px;
     height: 609px;
     margin-top: 120px;
     background: #070211;
 }
-
 .footer-section1 {
     display: flex;
     color: #FFF;
@@ -420,13 +436,32 @@
     /* 166.667% */
     padding-top: 120px;
     padding-left: 140px;
+    gap: 604px;
 }
-/* .c{
-    padding-left: 1114px;
-} */
-
+.hr {
+    /* padding-left: 140px;
+    padding-right: 140px; */
+    width: 1320px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #FFFFFF26;
+}
 .footer-img {
+    padding-top: 50px;
     display: flex;
     text-align: center;
     padding-left: 640px;
+    gap: 24px;
+    height: 120px;
+}
+.footer-section-3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding-left: 140px;
+    gap: 840px;
+
 }
